@@ -61,8 +61,9 @@ c) the string value of characters represented by the following integer sequence:
 74 32 82 111 98 101 114 116 32 79 112 112 101 110 104 101 105 109 101 114 
 """
 def integerSeqToString() -> str:
+    s1 = chr(74)
     #write your code here - this may take a number of lines!
-    return ""
+    return s1
 
 #TESTING SPACE: write any tests/experiments you want to do below
-print("Example test output")
+print(integerSeqToString())

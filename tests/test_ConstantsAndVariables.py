@@ -1,10 +1,10 @@
 from blankquestions.ConstantsVariables import *
 from solutions.AssignmentSolutions import constantsAndVariables as constantsAndVariablesAnswer
 
-def testconstantsAndVariables():
+def testConstantsAndVariables():
     assert constantsAndVariables() == 23
 
-def testconstantsAndVariablessolutio():
+def testconstantsAndVariablesSolution():
     assert constantsAndVariablesAnswer() == 23
 
 def testNumTimesQuoteIn23():
