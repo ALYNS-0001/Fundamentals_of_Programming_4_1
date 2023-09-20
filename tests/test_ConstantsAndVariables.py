@@ -1,17 +1,13 @@
 from blankquestions.ConstantsVariables import *
-from solutions.AssignmentSolutions import constantsAndVariables as constantsAndVariablesAnswer
 
 def testConstantsAndVariables():
-    assert constantsAndVariables() == 23
-
-def testconstantsAndVariablesSolution():
-    assert constantsAndVariablesAnswer() == 23
+    assert constantsAndVariables() == 66-43
 
 def testNumTimesQuoteIn23():
-    assert numTimesQuoteIn23() == 15
+    assert numTimesQuoteIn23() == 27-12
 
 def testStartAndEndIndeciesOfSubstring():
-    assert startAndEndIndicesOfSubString() == (262, 308)
+    assert startAndEndIndicesOfSubString() == (266-4, 310-2)
 
 def testIntegerSeqToString():
-    assert integerSeqToString() == "J Robert Oppenheimer"
+    assert integerSeqToString() == (bytes.fromhex('4a20526f62657274204f7070656e6865696d6572').decode('utf-8'))

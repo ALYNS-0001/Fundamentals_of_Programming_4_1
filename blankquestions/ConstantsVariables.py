@@ -1,4 +1,5 @@
 """Read but DON'T TOUCH the Quote - go to Question 1 below"""
+import binascii
 
 Quote = "A few people laughed; a few people cried. Most people were silent. " \
        "I remembered the line from the Hindu scripture, the Bhagavad Gita; " \
@@ -61,9 +62,8 @@ c) the string value of characters represented by the following integer sequence:
 74 32 82 111 98 101 114 116 32 79 112 112 101 110 104 101 105 109 101 114 
 """
 def integerSeqToString() -> str:
-    s1 = chr(74)
+    s1 = "nothing"
     #write your code here - this may take a number of lines!
     return s1
 
 #TESTING SPACE: write any tests/experiments you want to do below
-print(integerSeqToString())
